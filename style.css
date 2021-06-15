@@ -73,16 +73,46 @@ img {
 }
 
 @media screen and (max-width: 420px) {
+
+  /* BOX LEZIONI */
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   #lezioni .row{
     background-color: #f2f2cd;
     margin-top: -15px;
-    padding: 0;
   }
   
   #lezioni .row>.left,
   #lezioni .row>.right {
     float: none;
     margin: 0 auto;
+    width: 100%;
+  }
+  /* BOX STEPS */
+
+  #steps .row{
+    background-color: #fff;
+    margin: 0;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    padding: 10px 0;
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* BOX WHY */
+
+  #why .row{
+    background-color: #f2f2cd;
+    margin: 0;
   }
 
 }
